@@ -19,7 +19,7 @@ as the engine on top of which the tool is built. JPen itself is unmodified.
 ## Installation
 > Click on the Download button above. Download and unzip [YDraw-master.zip] to any location. I suggest you unzip it to a folder called YDraw. YDraw will work on any system that has java 1.6 or later. All you need is a java runtime (from Oracle). The crux of the software is in the YDrawTool directory. You will find an executable jar file called YDraw.jar there.
 
-* How to run?
+## Running
 > Once you have the java runtime installed just double-click on the YDraw.jar file inside the YDrawTool directory that you unzipped in the previous step.
 
 ## Usage
