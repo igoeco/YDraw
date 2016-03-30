@@ -16,13 +16,15 @@ as the engine on top of which the tool is built. JPen itself is unmodified.
 * Why YDraw?
 > There are several drawing tools for Tablet computers and Wacom external tablets but they all have cumbersome GUIs that come in the way of writing. For example, if one wants to change the color of the pen one has to open a menu drag it and pick the color. All this comes in the way and is captured if you are making a screencast. All YDraw options are keyboard shortcuts.   
 
-* How to install?
-> It will work on any system that has java 1.6 or later. All you need is a java runtime (from Oracle), the YDraw.jar and YDraw.png files (Which are in the YDrawTool directory). Download and unzip [YDraw.zip] to any location.
+## Installation
+> Click on the Download button above. Download and unzip [YDrawXXX.zip] to any location. I suggest you unzip it to a folder called YDraw. YDraw will work on any system that has java 1.6 or later. All you need is a java runtime (from Oracle). The crux of the software is in the YDrawTool directory. You will find an executable jar file called YDraw.jar there.
 
 * How to run?
-> Once you have the java runtime installed just double-click on the YDraw.jar file inside the YDraw directory that you unzipped in the previous step.
+> Once you have the java runtime installed just double-click on the YDraw.jar file inside the YDrawTool directory that you unzipped in the previous step.
 
-* What are the options?
+## Usage
+Note that all features in YDraw are accessible using keyboard shortcuts. So, all you will see is a blank screen when you run the jar. 
+* What/where are the options?
 > There are lot of options. Type ctrl-h to find out. Detailed documentation of all features and example uses is forthcoming.
 
 * Popular Use cases:
