@@ -70,31 +70,126 @@ It is licensed under <a href="http://www.gnu.org/licenses/lgpl-3.0.txt">GNU Less
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
-<p>Note that all features in YDraw are accessible using keyboard shortcuts. So, all you will see is a blank screen when you run the jar. Nothing you ever checkpoint is ever lost as all sessions are automatically saved under the "Saves" folder where YDraw was installed.</p>
+<p>Note that all features in YDraw are accessible using keyboard
+shortcuts. So, all you will see is a blank screen when you run the
+jar. Nothing you ever checkpoint is ever lost as all sessions are
+automatically saved under the <u><tt>Saves</tt></u> folder where
+YDrawTool was installed.</p>
 
 <ul>
 <li>
 <p>What/where are the options?</p>
 
 <blockquote>
-<p>There are lot of options. Type Ctrl+h to find out. Detailed documentation of all features and example uses is forthcoming.</p>
+<p>There are a lot of options. Type <b><tt>Ctrl+h</tt></b> to find out.</p>
 </blockquote>
 </li>
 <li><p>Use cases and Features:</p></li>
 <ul>
 <li>
-<em>The properties file</em>: There are a few customizable settings that one can set. You can configure these settings in the <u>YDraw.properties</u> file.
+<em>The properties file</em>: There are a few customizable settings that one can set. You can configure these settings in the <u><tt>YDraw.properties</tt></u> file.
+</li>
 <li>
-<em>One screenshot</em>: Draw/write what you want using/switching the pen color as you go. There is an eraser (key e) and different pen thickness to choose from including a dashed line option. To save a screenshot use Ctrl+s. I use this during my office hours to explain something to a student.</li>
+  <em>Hotkeys </em>:
+  <ul>
+    <li> <em> Thickness - </em> To change the thichness of the pen you can
+either choose from four preset thickness
+(extra<u><tt>f</tt></u>ine, <u><tt>F</tt></u>ine, <u><tt>t</tt></u>hick
+and extra<u><tt>T</tt></u>hick). Alternatively, you can use
+the <tt>up</tt> and <tt>down</tt> arrow keys to change the thickness
+of the pen at a finer granularity. </li>
+
+<li> <em> Color - </em> The color hotkeys are as
+follows: <u><tt>b</tt></u>lue (default), <u><tt>w</tt></u>hite,
+Blac<u><tt>k</tt></u>, <u><tt>r</tt></u>ed, <u><tt>g</tt></u>reen, <u><tt>m</tt></u>agenta, <u><tt>o</tt></u>range. ma<u><tt>R</tt></u>oon, <u><tt>c</tt></u>yan, <u><tt>y</tt></u>ellow, <u><tt>o</tt></u>range. Try
+	 the <u><tt>a</tt></u> key for a random color. Also, uppercase on these hotkeys gives a darker version of the same color</li>
+<li> <em> Eraser - </em> The eraser can be engaged several ways, the simplest way is to use the top end of the stylus. Alternatively, you can press the button on the stylus while you write. If you want to use it continuously then simple use the hotkey <u><tt>e</tt></u>rase </li>
+    <li> <em> dashed line - </em> Use the <u><tt>d</tt></u>ash hotkey if you want your lines to be dashes. </li>
+    <li> <em> Highlighter - </em> Use the <b><tt>Ctrl+m</tt></b> hotkey to mark things using a highlighter. The color of the highligher can be configured in the properties file.</li>
+  </ul>	 
+		      
+<li>
+<em>Recording a session</em>: The notion of a session is screenshots
+taken at key points in ones narrative which can then be saved. At points
+where one has covered something of substance and may move to a
+different concept one can save a checkpoint (<b><tt>Ctrl+p</tt></b>). One can navigate through
+the checkpoints using (<b><tt>Ctrl+r</tt></b> or <b><tt>Ctrl+left</tt></b> to rewind and <b><tt>Ctrl+f</tt></b> or
+<b><tt>Ctrl+right</tt></b> to forward). When you are done, you can save all the
+checkpoints by using <b><tt>Ctrl+x</tt></b> to quit, which saves all the checkpoints
+as png files and creates a PDF document. The png files are higher
+quality than the PDF document.
+
+<em>Resuming a session</em>: One can preload a previous session
+using <b><tt>Ctrl+l</tt></b>. You do this if you want to review what you covered in the
+previous session and/or use that as a starting point for the current
+session.</li>
 
 <li>
-<em>Recording a session</em>: My idea of a session is screenshots taken at key points in my narrative which can then be saved. At points where I think I covered something of substance and may move to a different concept I save a checkpoint (ctrl+p). I can rewind through the checkpoints using  (Ctrl+f to forward). When I am done, I will save all the checkpoints by using Ctrl+x to quit, which saves all the checkpoints as png files and creates a PDF document. The png files are higher quality than the PDF document. You can preload a previous session using ctrl+l. I do this if I want to review what I covered in the previous session and/or use that as a starting point for the current session.</li>
+<em>Cut-and-paste from Clipboard</em>: Anything in the clipboard (text
+or images) can be brought into YDraw by using <b><tt>Ctrl+v</tt></b> as you do in any
+other application. So, if you cut some text in say a document then you
+can paste it in YDraw. If the font is too small, undo the paste (<b><tt>Ctrl+z</tt></b>) and
+then use the right arrow key to make the font bigger and paste
+again. If you paste a image then you can scale it up or down using the
+">" or "<" key (no need to undo the paste).</li>
+	   
+<li>
+<em>Grab content from YDraw</em>: To grab content from YDraw
+use <b><tt>Ctrl+g</tt></b> and then choose the rectangular region you
+want to grab (a gray outline will show you that that region has been
+copied. You now have that region in your Clipboard. You can paste it
+if any application that allows you to paste (<b><tt>Ctrl+v</tt></b>)an
+image from the clipboard. </li>
 
 <li>
-<em>Cut-and-paste from Clipboard</em>: Anything in the clipboard (text or images) can be brought into YDraw by using Ctrl+v  as you do in any other application. So, if you cut some text in say a document then youc an paste it in YDraw. If the font is too small then use the right arrow key to make it bigger. If you paste a image then you can scale it up or down using 
+<em>Image Presets</em>:  You can pre-populate Ydraw with up to 10
+images that can then be imported into YDraw with a single key(number
+0-9). The images you want to preset have to be stored in
+the <u><tt>images</tt></u> directory in the YDrawtool folder. The
+image files can be gif, png or jpg, named in lexical order. The lower
+named file gets assigned the lower number hotkey with the lowest one
+getting hotkey 0. The import always happens where the cursor is
+currently located. If you disable the mouse then the pen position is
+the cursor position. If you don't like where the import occurred then
+simply undo (<b><tt>Ctrl+z</tt></b>) the paste and move the cursor
+where you want the import and press the number hotkey again.</li>
+
+<li>
+<em>Using as a Glass</em>:  If you have some other application
+under YDraw that you'd like to draw on. You can engage the YDraw glass
+feature using <b><tt>Ctrl+t</tt></b> which makes YDraw
+transparent. You can then take a snapshot of the screen, which will be
+the appication snapshot. Now disable the glass feature by
+using <b><tt>Ctrl+t</tt></b> again. Now you can go back to the last
+snapshot using <b><tt>Ctrl+r</tt></b> (rewind) and start writing on
+it. Also, when you are in the "glass" feature you can change the
+transparency of YDraw by using <b><tt>PgUp</tt></b>
+and <b><tt>PgDn</tt></b> keys. Use this to annotate directly on the
+bottom application (of course you can still take a snapshot of that)</li>
+<li>
+<em>Quit or Exit </em>: There are two ways the terminate your session.
+Use <b><tt>Ctrl+q</tt></b> if you want to quit without saving
+explicitly. Note that all sessions (individual snapshots) are still
+auto-saved in the saves folder. To end a session and have a PDF
+document of the session, use <b><tt>Ctrl+x</tt></b>, which prompts you
+for a destination folder to save your session in.</li>
+
+<li>
+<em>The Khan Academy mode</em>: If you are presenting in a room that
+has too much light you can used the reverse video mode akin to the
+mode used by Salman Khan in his Khan Academy videos. Engage this mode
+using <b><tt>Ctrl+b</tt></b>. I like using this mode when I am
+recording a screencast</li>
+
+<li>
+<em>One screenshot</em>: To save a single screenshot to a destination
+folder use <b><tt>Ctrl+s</tt></b>. I use this during my office hours
+to explain something to a student and then mail the screenshot to
+her.</li>
+
+
 
 </ul>
-
 <h2>
 <a id="acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgements:</h2>
 
