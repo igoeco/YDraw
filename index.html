@@ -91,7 +91,14 @@ YDrawTool was installed.</p>
 <li><p>Use cases and Features:</p></li>
 <ul>
 <li>
-<u><em>The properties file</em></u>: There are a few customizable settings that one can set. You can configure these settings in the <u><tt>YDraw.properties</tt></u> file.
+<u><em>The properties file</em></u>: There are a few customizable settings that one can set. 
+You can configure these settings in the <u><tt>YDraw.properties</tt></u> file. Most properties there
+are self-explanatory, however if your screen captures are messed up (as in only a part of the screen 
+or your grab) is actually being captured then its most likely that you are using Windows with a scaling. 
+Most screens these days are of such high resolution that windows automatically scales its pixels 
+(by default of 200%). Most applications pick up this information but the java vm does not. We need to 
+help it by telling it what scaling is by the property  <tt>ScreenScaling</tt>. If your screen is at 200% 
+then you will set this property to <tt> 2</tt>.
 </li>
 <li>
   <u><em>Hotkeys </em></u>:
